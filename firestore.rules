@@ -1,0 +1,28 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    // Users collection
+    match /users/{userId} {
+      // Anyone can read a user's profile if it's public
+      allow get: if resource.data.publicProfile == true || isOwner(userId);
+      // Logged-in users can list public profiles
+      allow list: if isSignedIn() && query.filters.size() == 1 && query.filters[0][0] == 'publicProfile' && query.filters[0][2] == true;
+
+      // Only the user themselves can create or update their own profile
+      allow create, update: if isOwner(userId);
+      // Users cannot delete their profiles through the client
+      allow delete: if false;
+    }
+  }
+}

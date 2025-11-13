@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "featured-project-1",
+      "description": "Featured project 1",
+      "imageUrl": "https://images.unsplash.com/photo-1650473395434-8674d953ef2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWNoJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzYyOTYwNTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech abstract"
+    },
+    {
+      "id": "featured-project-2",
+      "description": "Featured project 2",
+      "imageUrl": "https://images.unsplash.com/photo-1593086784152-b060f8109e0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29kZSUyMHNjcmVlbnxlbnwwfHx8fDE3NjI5NjA0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code screen"
+    },
+    {
+      "id": "featured-project-3",
+      "description": "Featured project 3",
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZXJ2ZXIlMjByb29tfGVufDB8fHx8MTc2Mjk1MjgwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "server room"
+    }
+  ]
+}
