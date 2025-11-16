@@ -97,7 +97,7 @@ export default function Home() {
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-3">
                 <CheckCircle className="text-accent w-5 h-5" />
-                <span>Public URLs like `devpulse.app/your-name`</span>
+                <span>Public URLs like `devpulse.is-a.dev/your-name`</span>
               </li>
               <li className="flex items-center gap-3">
                 <CheckCircle className="text-accent w-5 h-5" />
@@ -120,7 +120,7 @@ export default function Home() {
                  <Image src="https://avatars.githubusercontent.com/u/1?v=4" alt="User" width={64} height={64} className="rounded-full" />
                  <div>
                     <h3 className="font-bold text-lg font-headline">Your Name</h3>
-                    <p className="text-sm text-muted-foreground">devpulse.app/your-name</p>
+                    <p className="text-sm text-muted-foreground">devpulse.is-a.dev/your-name</p>
                  </div>
               </div>
               <div className="grid grid-cols-2 gap-4">
